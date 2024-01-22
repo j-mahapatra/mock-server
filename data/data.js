@@ -1,0 +1,180 @@
+const userTestimonials = [
+  {
+    id: 1,
+    name: 'Alice Johnson',
+    age: 35,
+    problem: 'Chronic knee pain',
+    designation: 'Software Engineer',
+    rating: 5,
+    image: 'https://xsgames.co/randomusers/avatar.php?g=female',
+    review:
+      'Their service transformed my chronic knee pain management with personalized recommendations and user-friendly tracking.',
+  },
+  {
+    id: 2,
+    name: 'Bob Smith',
+    age: 45,
+    problem: 'Shoulder injury recovery',
+    designation: 'Marketing Manager',
+    rating: 5,
+    image: 'https://xsgames.co/randomusers/avatar.php?g=male',
+    review:
+      'Outstanding service! Helped me recover from a shoulder injury with motivating features and effective physical therapy exercises.',
+  },
+  {
+    id: 3,
+    name: 'Catherine White',
+    age: 28,
+    problem: 'Feet injury',
+    designation: 'Graphic Designer',
+    rating: 5,
+    image: 'https://xsgames.co/randomusers/avatar.php?g=female',
+    review:
+      'Invaluable for recovering from months of post-injury pain! Great service.',
+  },
+  {
+    id: 4,
+    name: 'David Miller',
+    age: 50,
+    problem: 'Elbow pain',
+    designation: 'Teacher',
+    rating: 5,
+    image: 'https://xsgames.co/randomusers/avatar.php?g=male',
+    review:
+      'Simplified exercise management! treatment methods are incredibly useful.',
+  },
+  {
+    id: 5,
+    name: 'Eva Gonzalez',
+    age: 40,
+    problem: 'Back pain and posture improvement',
+    designation: 'Fitness Trainer',
+    rating: 5,
+    image: 'https://xsgames.co/randomusers/avatar.php?g=female',
+    review: 'A must-have for people with back problems! Works like a charm.',
+  },
+  {
+    id: 6,
+    name: 'Frank Wilson',
+    age: 55,
+    problem: 'Neck pain',
+    designation: 'Retired',
+    rating: 5,
+    image: 'https://xsgames.co/randomusers/avatar.php?g=male',
+    review:
+      'Years of neck pain gone in a couple of months. Thank you Fix Health!',
+  },
+];
+
+const cities = [
+  'New Delhi',
+  'Mumbai',
+  'Chennai',
+  'Kolkata',
+  'Hyderabad',
+  'Pune',
+  'Gurgaon',
+];
+
+const doctors = [
+  {
+    name: 'Dr. Sarah Johnson',
+    gender: 'Female',
+    specialty: 'Orthopedic Surgeon',
+    city: 'Mumbai',
+    image: 'https://xsgames.co/randomusers/avatar.php?g=female',
+  },
+  {
+    name: 'Dr. Priya Desai',
+    gender: 'Female',
+    specialty: 'Gynecologist',
+    city: 'Pune',
+    image: 'https://xsgames.co/randomusers/avatar.php?g=female',
+  },
+  {
+    name: 'Dr. Rajesh Kumar',
+    gender: 'Male',
+    specialty: 'Dermatologist',
+    city: 'Chennai',
+    image: 'https://xsgames.co/randomusers/avatar.php?g=male',
+  },
+  {
+    name: 'Dr. Sunil Verma',
+    gender: 'Male',
+    specialty: 'Neurologist',
+    city: 'Hyderabad',
+    image: 'https://xsgames.co/randomusers/avatar.php?g=male',
+  },
+  {
+    name: 'Dr. Arjun Singh',
+    gender: 'Male',
+    specialty: 'Oncologist',
+    city: 'Gurgaon',
+    image: 'https://xsgames.co/randomusers/avatar.php?g=male',
+  },
+  {
+    name: 'Dr. John Smith',
+    gender: 'Male',
+    specialty: 'Cardiologist',
+    city: 'New Delhi',
+    image: 'https://xsgames.co/randomusers/avatar.php?g=male',
+  },
+  {
+    name: 'Dr. Anjali Gupta',
+    gender: 'Female',
+    specialty: 'Pediatrician',
+    city: 'Kolkata',
+    image: 'https://xsgames.co/randomusers/avatar.php?g=female',
+  },
+  {
+    name: 'Dr. Ramesh Patel',
+    gender: 'Male',
+    specialty: 'ENT Specialist',
+    city: 'Mumbai',
+    image: 'https://xsgames.co/randomusers/avatar.php?g=male',
+  },
+  {
+    name: 'Dr. Naina Sharma',
+    gender: 'Female',
+    specialty: 'Endocrinologist',
+    city: 'Gurgaon',
+    image: 'https://xsgames.co/randomusers/avatar.php?g=female',
+  },
+  {
+    name: 'Dr. Vikram Verma',
+    gender: 'Male',
+    specialty: 'Psychiatrist',
+    city: 'Chennai',
+    image: 'https://xsgames.co/randomusers/avatar.php?g=male',
+  },
+  {
+    name: 'Dr. Preeti Kapoor',
+    gender: 'Female',
+    specialty: 'Internal Medicine',
+    city: 'Pune',
+    image: 'https://xsgames.co/randomusers/avatar.php?g=female',
+  },
+  {
+    name: 'Dr. Siddharth Sinha',
+    gender: 'Male',
+    specialty: 'Urologist',
+    city: 'New Delhi',
+    image: 'https://xsgames.co/randomusers/avatar.php?g=male',
+  },
+  {
+    name: 'Dr. Ananya Joshi',
+    gender: 'Female',
+    specialty: 'Rheumatologist',
+    city: 'Hyderabad',
+    image: 'https://xsgames.co/randomusers/avatar.php?g=female',
+  },
+  {
+    name: 'Dr. Alok Deshmukh',
+    gender: 'Male',
+    specialty: 'Ophthalmologist',
+    city: 'Kolkata',
+    image: 'https://xsgames.co/randomusers/avatar.php?g=male',
+  },
+];
+
+module.exports = { userTestimonials, cities, doctors };
