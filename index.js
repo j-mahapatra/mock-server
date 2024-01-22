@@ -25,6 +25,6 @@ app.get('/doctors', (req, res) => {
   res.json(doctors);
 });
 
-app.listen(port, () => {
+app.listen(PORT, () => {
   console.log(`Mock app listening on port ${PORT}`);
 });
